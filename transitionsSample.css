@@ -1,0 +1,32 @@
+.box{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    border: 5px solid lightskyblue;
+    transition: background-color 2s linear 2s;
+
+}
+
+/*
+  transition: https://www.w3schools.com/css/css3_transitions.asp
+  animations: https://www.w3schools.com/css/css3_animations.asp
+  transform: https://www.w3schools.com/css/css3_2dtransforms.asp
+*/
+
+.box:hover {
+    background-color: lightskyblue;
+}
+
+/*
+@media(min-width:0px) and (max-width: 800px){
+  .box{
+    background-color: black;
+    transition: background-color 2s lnear 2s;
+    border: 5px solid black;
+  }
+} 
+*/
+
+/*
+ media: https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+*/
